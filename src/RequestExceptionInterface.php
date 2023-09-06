@@ -20,5 +20,5 @@ interface RequestExceptionInterface extends ClientExceptionInterface
      *
      * @return RequestInterface
      */
-    public function getRequest(): RequestInterface;
+    public function getRequest();
 }
